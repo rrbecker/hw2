@@ -6,3 +6,4 @@ let handleImageClick = function(event) {
   console.log(srcValue)}
 
 jQuery("img").on("click", handleImageClick)
+jQuery(“#main-image”).attr(“src”, theImage.attr(“src”))
